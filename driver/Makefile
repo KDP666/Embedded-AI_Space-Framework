@@ -15,7 +15,7 @@ kernel_modules:
 	mv $(CURRENT_PATH)/*.mod $(CURRENT_PATH)/build
 	mv $(CURRENT_PATH)/*.mod.c $(CURRENT_PATH)/build
 	mv $(CURRENT_PATH)/*.symvers $(CURRENT_PATH)/build
-	mv $(CURRENT_PATH)/*.order $(CURRENT_PATH)/build
+	mv $(CURRENT_PATH)/*.order $(CURRENvim_PATH)/build
 	mv $(CURRENT_PATH)/.*.cmd $(CURRENT_PATH)/build
 	
 clean:
