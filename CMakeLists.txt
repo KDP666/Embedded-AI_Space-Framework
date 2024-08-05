@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 3.2)
-project(AI_Space)
+project(Space_AI)
 
 #设定CXX的标准
 set(CMAKE_CXX_STANDARD 11)
@@ -15,4 +15,4 @@ set(current_hFile ${CMAKE_CURRENT_SOURCE_DIR}/include)
 #添加需要include的h文件路径
 include_directories(${current_hFile})
  
-add_executable(AI_Space ${src_init})
+add_executable(Space_AI ${src_init})

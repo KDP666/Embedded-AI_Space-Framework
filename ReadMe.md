@@ -9,7 +9,7 @@ Eembeded Space-AI Framework具有以下特点：
 * 丰富的对外通讯接口模块
 * 可快速部署AI算法的系统环境
 
-该项目已分享至  https://github.com/KDP666/Embedded-AI_Space-Framework 。
+该项目已分享至  https://github.com/KDP666/Embedded-Space-AI-Framework 。
 
 ## 时钟管理模块
 
@@ -91,19 +91,33 @@ Kernel Space ：C （相关驱动开发）
 采用latmus测试EVL实时内核响应延时统计如下（24h test）：
 
 >\# libevl version: evl.0.47
+>
 >\# sampling period: 1000 microseconds
+>
 >\# clock gravity: 0i 3000k 3000u
+>
 >\# clocksource: arch_sys_counter
+>
 >\# vDSO access: architected
+>
 >\# context: user
+>
 >\# thread priority: 89
+>
 >\# thread affinity: CPU2
+>
 >\# C-state restricted
+>
 >\# duration (hhmmss): 24:39:22
+>
 >\# peak (hhmmss): 14:35:16
+>
 >\# min latency: 2.179
+>
 >\# avg latency: 4.042
+>
 >\# max latency: 20.997
+>
 >\# sample count: 88763340
 
 该测试使用的cpu核心均被隔离（isolated）。
